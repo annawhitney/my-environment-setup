@@ -196,6 +196,8 @@ set wrap "Wrap lines
 vnoremap <silent> * :call VisualSelection('f', '')<CR>
 vnoremap <silent> # :call VisualSelection('b', '')<CR>
 
+" Visual mode pressing CTRL-R sets up search-and-replace with current selection
+vnoremap <C-r> "hy:%s/<C-r>h//g<left><left>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
