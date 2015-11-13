@@ -2,5 +2,6 @@
 An easy way for me to get my .vimrc/.bashrc/etc everywhere I need them.
 
 ## Setup notes-to-self:
-- don't blindly replace existing files on a new system; check contents and/or concatenate onto existing file
+- concatenate .profile onto existing .profile or .bash\_profile
 - separate setup required for [The Fuck](https://github.com/nvbn/thefuck)
+- Pathogen requires .vim directory contents as well as .vimrc - DOUBLE CHECK WHAT'S ALREADY THERE ON ANY NEW SYSTEM
