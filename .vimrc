@@ -119,6 +119,10 @@ set magic
 
 " Show matching brackets when text indicator is over them
 set showmatch 
+
+" Show commands as you type them
+set showcmd
+
 " How many tenths of a second to blink when matching brackets
 set mat=2
 
